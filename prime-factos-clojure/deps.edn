@@ -1,0 +1,7 @@
+{:mvn/local-repo ".m2/repository"
+ :paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.1"}}
+ :aliases
+ {:spec {:extra-paths ["spec"]
+         :extra-deps {speclj/speclj {:mvn/version "3.13.0"}}
+         :main-opts ["-m" "speclj.main" "-c"]}}}
