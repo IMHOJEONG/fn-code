@@ -4,3 +4,7 @@ fn-clojure/prime-factos-clojure/.m2/
 fn-clojure/prime-factos-clojure/.cpcache/
 fn-clojure/bowling-java/.m2/
 fn-clojure/bowling-java/target/
+
+# pyc
+**/*.pyc
+**/.DS_Store
