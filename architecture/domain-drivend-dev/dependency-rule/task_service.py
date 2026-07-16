@@ -1,5 +1,5 @@
 from todo_app.domain.entities.task import Task
-from todo_app.domain.repositorires.task_repository import TaskRepository
+from todo_app.domain.repositories.task_repository import TaskRepository
 
 class TaskService:
 
